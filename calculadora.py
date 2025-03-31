@@ -6,6 +6,7 @@ def main(page: ft.Page):
     page.window.width = 350
     page.window.height = 470
     page.padding = 10
+    page.window.resizable = False
 
     all_values = ''
 
